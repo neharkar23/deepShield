@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# PyTorch / Model Checkpoints (large binary files)
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Dataset (large image files – do not push raw data)
+dataset/
+
+# Outputs (generated plots, logs, reports)
+outputs/
+training_log.txt
+
+# Streamlit
+.streamlit/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+*.db
+
+# Reports (auto-generated)
+reports/
