@@ -1,0 +1,14 @@
+torch
+torchvision
+opencv-python
+facenet-pytorch
+albumentations
+scikit-learn
+matplotlib
+streamlit
+pandas
+python-docx
+tqdm
+timm
+torchinfo
+tensorboard

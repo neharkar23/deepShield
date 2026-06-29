@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# PyTorch / Model Checkpoints (large binary files ~150MB each — use Git LFS or cloud storage)
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Dataset (100k+ images — too large for GitHub, use Kaggle/Drive link)
+dataset/
+
+# TensorBoard binary event logs
+outputs/logs/
+
+# SQLite database and raw log files
+*.log
+*.db
+
+# Very large training log text file
+training_log.txt
+
+# Streamlit local config
+.streamlit/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+outputs/
